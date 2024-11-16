@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'RussianFont';
+    src: url('path/to/russian-font.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'EnglishFont';
+    src: url('path/to/english-font.woff2') format('woff2');
+}
+.russian-word {
+    font-family: 'RussianFont', sans-serif;
+}
+.english-word {
+    font-family: 'EnglishFont', serif;
+}
